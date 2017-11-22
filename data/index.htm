@@ -1,0 +1,25 @@
+<h1>Welcome to PolyESP!</h1>
+
+<p>
+This message is being broadcast from an ESP8266 microcontroller in the PolyProjet club room, A-373!
+</p>
+<p>Clicking this button will toggle an LED:</p>
+<form action="/LED" method="POST">
+	<input type="submit" value="Toggle LED">
+</form>
+
+<p>
+If you'd like to upload a file, click here. You'll need the proper username and password, though.
+</p>
+<form action="/upload.html" method="GET">
+	<input type="submit" value="Upload Page">
+</form>
+
+<p>
+Go to any directory and I will attempt to find the page or file in my file system. In the future, this microcontroller will (hopefully) be used to unlock the PolyProjet club room door... But only if you have permission, of course.
+</p>
+
+<p>Press this button if you want to log out:</p>
+<form action="/" method="POST">
+	<input type="submit" value="Log out">
+</form>
